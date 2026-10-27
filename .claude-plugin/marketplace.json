@@ -1,0 +1,13 @@
+{
+  "name": "dmytro-plugins",
+  "owner": {
+    "name": "Dmytro Hadiuchko"
+  },
+  "plugins": [
+    {
+      "name": "course-quality",
+      "source": "./",
+      "description": "Review, test-gap analysis and test writing for the course Express API, with a lint-on-edit hook."
+    }
+  ]
+}

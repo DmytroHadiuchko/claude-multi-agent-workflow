@@ -1,0 +1,11 @@
+{
+  "name": "course-quality",
+  "version": "0.1.0",
+  "description": "Code-quality workflow for the course Express API: parallel review and test-gap analysis, then targeted test writing, plus a lint-on-edit hook.",
+  "author": {
+    "name": "Dmytro Hadiuchko"
+  },
+  "repository": "https://github.com/DmytroHadiuchko/claude-multi-agent-workflow",
+  "license": "MIT",
+  "keywords": ["code-quality", "review", "testing", "eslint"]
+}

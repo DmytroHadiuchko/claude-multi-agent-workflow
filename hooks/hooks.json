@@ -1,0 +1,17 @@
+{
+  "description": "Lint course-api JavaScript files right after Claude edits them.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/lint-on-edit.js\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
